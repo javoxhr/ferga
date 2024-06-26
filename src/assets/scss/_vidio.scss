@@ -1,0 +1,113 @@
+.control-wrap {
+    position: absolute;
+    top: 130px;
+    right: 0;
+    left: 270px;
+    button {
+        position: relative;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+    button:active {
+        opacity: 0.7;
+    }
+}
+.control-position-2 {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    
+}
+.vidio-cover {
+    position: relative;
+}
+
+.vidio-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .vidio-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.vidio-cover-title {
+    width: 650px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+@media screen and (max-width: 710px) {
+    .vidio-cover {
+        width: 100%;
+    }
+    .vidio-cover-title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .control-wrap {
+        top: 100px;
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .control-wrap  {
+        top: 70px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .control-position-1 {
+        width: 60px;
+    }
+    .control-position-2 {
+        width: 20px;
+        left: 20px;
+        top: 20px;
+    }
+    .vidio-cover-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .control-wrap {
+        top: 60px;
+        left: 120px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .control-wrap {
+        top: 50px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    .control-wrap {
+        top: 30px;
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 190px) {
+    .control-wrap {
+        display: none;
+    }
+}

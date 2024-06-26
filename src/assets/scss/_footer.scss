@@ -1,0 +1,107 @@
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #8F8E94;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.footer-icon:hover {
+    background-color: #DFAD2A;
+}
+.footer-icons-wrap {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+footer {
+    background-color: #2D2C31;
+    margin-top: 50px;
+    nav {
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            li {
+                a {
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    transition: .5s ease;
+                }
+                a:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-linie {
+    display: block;
+    height: 2px;
+    background-color: #FFFFFF1A;
+    margin-top: 29px;
+}
+
+.figma-time {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 12px 0;
+    color: #FFFFFF4D;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-nav-wrap {
+    margin-top: 35px;
+}
+
+.icons-wrap-2 {
+    display: none;
+    justify-content: center;
+    padding: 20px 0;
+}
+@media screen and (max-width: 1200px) {
+    .footer-wrapper {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    footer {
+        nav {
+            ul {
+                flex-direction: column;
+                li {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-icons-wrap {
+        display: none;
+    }
+    .icons-wrap-2 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 235px) {
+    .icons-wrap-2 {
+        flex-direction: column;
+    }
+}

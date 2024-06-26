@@ -1,0 +1,76 @@
+.car-title {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 0 10px;
+}
+.car-time {
+    margin-top: 1px;
+}
+.car-item {
+    h1 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+.uz-lin-car {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.car-item {
+    padding: 15px 0 0;
+    h1:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    a {
+        color: #000;
+    }
+}
+
+.car-news-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.car-news-wrapper {
+    padding: 30px 0;
+}
+
+
+@media screen and (max-width: 1290px) {
+    .car-item  {
+        h1 {
+            font-size: 16px;
+        }
+    }
+    .car-news-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-car {
+        width: 100%;
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .car-title {
+        font-size: 16px;
+    }
+    .car-item {
+        h1 {
+            font-size: 12px;
+        }
+    }
+}
+
+.rek-2 {
+    a {
+        img {
+            width: 100%;
+        }
+    }
+}

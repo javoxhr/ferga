@@ -1,0 +1,237 @@
+.prisdent-info {
+    a {
+        font-weight: 400;
+        font-size: 14px;
+        color: #DFAD2A;
+    }
+}
+
+.prisdent-title {
+    width: 600px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: $title-color;
+    margin-top: 20px;
+}
+
+.prisdent-desc {
+    p {
+        width: 600px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #727272;
+        padding: 30px 0;
+    }
+}
+
+.time-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    h3 {
+        font-weight: 400;
+        font-size: 12px;
+        color: #BDBDBD;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.prisdent-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    .prisdent-img-wrap {
+        img {
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 657px) {
+    .prisdent-wrapper {
+        .prisdent-img-wrap {
+           img {
+            object-fit: contain;
+            height: 300px;
+           }
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .prisdent-wrapper {
+        .prisdent-img-wrap {
+           img {
+            object-fit: contain;
+           }
+        }
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .prisdent-wrapper {
+        height: 200px;
+        margin-top: 50px;
+        .prisdent-img-wrap {
+           img {
+            object-fit: contain;
+           }
+        }
+    }
+}
+
+.burger-menu {
+    display: none;
+    button {
+        border: none;
+        background: none;
+    }
+}
+.search-media {
+    display: none;
+    button {
+        border: none;
+        background: none;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .rek-time {
+        img {
+            width: 100%;
+        }
+    }
+    .prisdent-img-wrap {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .header-wrapper {
+        gap: 90px;
+    }
+}
+
+@media screen and (max-width: 1092px) {
+    .header-wrapper {
+        gap: 80px;
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .prisdent-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    header {
+        nav {
+            display: none;
+        }
+    }
+    .search {
+        display: none;
+    }
+    .toggle {
+        display: none;
+    }
+    .main-info {
+        .container {
+            justify-content: center;
+        }
+    }
+
+    .header-wrapper {
+        justify-content: space-between;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    .search-media {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .prisdent-title {
+        width: 100%;
+        max-width: 400px;
+        font-size: 19px;
+        margin-top: 30px;
+    }
+    .prisdent-wrapper {
+        width: 100%;
+    }
+    .prisdent-desc {
+        width: 100%;
+    }
+    .prisdent-text-wrapper {
+        width: 100%;
+    }
+    .prisdent-desc {
+        p {
+            width: 100%;
+            font-size: 13px;
+        }
+    }
+    .main-info {
+        h2 {
+            font-size: 12px;
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+    .prisdent-desc {
+        p {
+            padding: 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 317px) {
+    .header-logo-wrap {
+        display: none;
+    }
+
+    .header-wrapper {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 185px) {
+    .prisdent-title {
+        font-size: 10px;
+    }
+    .time-wrap {
+        flex-direction: column;
+    }
+    .header-wrapper {
+        justify-content: center;
+    }
+    .search-media {
+        display: none;
+    }
+}
